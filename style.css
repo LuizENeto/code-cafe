@@ -1,0 +1,172 @@
+img {
+    max-width: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-list {
+    padding: 30px;
+    text-decoration: none;
+    color: gray;
+    font-size: 20px;
+}
+
+a:hover {
+    font-weight: 900;
+    color: black;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./images/painel.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.centered-text {
+    text-align: center;
+    color: #ffffff;
+    font-size: 60px;
+}
+
+.logo-flower {
+    width: 170px;
+    height: 170px;
+    margin-bottom: 70px;
+}
+
+.flower {
+    text-align: center;
+    padding: 153px;
+    margin: 0 auto;
+    clear: both;
+}
+
+
+
+.text-flower {
+    width: 80%;
+    color: gray;
+    font-size: 22px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin-bottom: 37px;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.ladrilho div{
+    float: left;
+}
+
+.ladrilho .grande {
+    background: url(../images/4.jpg) center center no-repeat;
+    height: 600px;
+    width: 50%;
+}
+
+.ladrilho .pequeno {
+    background: url(../images/3.jpg) center center no-repeat;
+    height: 300px;
+    width: 25%;
+}
+
+.ladrilho .pequeno.grao {
+    background: url(../images/2.jpg) center center no-repeat;
+    height: 300px;
+    width: 25%;
+}
+
+.ladrilho .medio{
+    background: url(../images/1.jpg) center center no-repeat;
+    height: 300px;
+    width: 50%;
+}
+
+.contato {
+    background: url(./images/fundo-contato.jpg) center center no-repeat;
+    height: 600px;
+    text-align: center;
+    position: relative;
+}
+
+.text-contato {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    color: white;
+    max-width: 80%;
+    padding: 20px;
+    font-style: none;
+    text-align: justify;
+    font-size: 18px;
+}
+
+.titulo-contato {
+    position: absolute;
+    top: 30%;
+    left: 47%;
+    font-size: 45px;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10px;
+    color: white;
+    margin: 10px;
+}
+
+.logos-rodape  {
+    width: 20px;
+    height: 20px;
+}
+
+.nav-list-footer {
+    padding: 30px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-list-footer:hover {
+    font-weight: 700;
+    color: white;
+}
+
+.copyright {
+    color: white;
+    margin: 2px;
+}
+
+.background {
+    background: url(/images/fundo-rodape.jpg) center center no-repeat;
+    height: 229px;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    float: right;
+    margin: 10px;
+}
